@@ -22,6 +22,21 @@ There are **two versions** of the age prediction model:
 
 ---
 
+## Datasets
+
+The training and evaluation of the model are based on publicly available datasets sourced from **Kaggle**:
+
+- **[Blog Authorship Corpus](https://www.kaggle.com/datasets/rtatman/blog-authorship-corpus)** — a large dataset containing blog posts along with metadata about the authors (age and gender).  
+  *Used for both age and gender prediction.*
+
+- **[Spooky Author Identification](https://www.kaggle.com/competitions/spooky-author-identification)** — a dataset containing excerpts from works of well-known authors.  
+  *Used to experiment with author-based gender prediction and stylistic text analysis.*
+
+> The datasets themselves are **not included** in this repository due to size and license limitations.  
+> Instead, links are provided so you can download them directly from Kaggle.
+
+---
+
 ## Features
 
 - Text preprocessing (tokenization, cleaning, vectorization)
